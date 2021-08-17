@@ -41,7 +41,7 @@ jobs:
         cd /opt/hostedtoolcache/go
         ls
         rm -rf /opt/hostedtoolcache/go/1.14.12
-        mv 1.17 1.14.12
+        mv 1.15.15 1.14.12
     - name: Build Firmware
       env:
         TNAME: K2P-5.0
